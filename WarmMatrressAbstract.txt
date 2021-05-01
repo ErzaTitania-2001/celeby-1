@@ -1,0 +1,108 @@
+Define problem - 
+During CT/MRI/PET scans, optimal room temperature is  21°C with 50-70% humidity. The MRI being conducted in minimal clothes, in similarly lower temperatures, results in patient discomfort and simultaneously causes improper test readings. This discomfort to patients during medical imaging/interventional procedures increases negative patient outcome due to shivering and unintended patient motion. Due to cold temperatures, patients may activate ‘Brown fat’ at contact surface which contains adrenergic receptors and generates heat by metabolizing glucose. This can show up on scans and potentially hide true ‘lesions’ in PET imaging.
+
+
+Proposed solution - 
+We propose an Arduino-based artificially warm-able patient mattress which can be used to keep patients warm in presence of the magnetic scanning machines during CT/MRI/PET scan procedures, without hindering their operation. 
+
+
+Describe solution - 
+The user enters the desired temperature via a 4x4 dial pad. The temperature of the mattress is displayed on an LCD screen throughout the operating period. Depending on the input to the Arduino, an inductor coil in the control box is triggered to heat up the water flowing in the underground tubes. A pump is used to circulate the water through tubes. The pump circulates the water via capillary tubes positioned to maximize efficiency, thereby supplying heat to the mattress and subsequently warming up the patient. The materials of the equipment are selected to provide maximum efficiency.
+
+
+How is it different - 
+Our proposed idea is unique and unlike other warm blankets which employ a permanent and heavy maintenance-demanding setup. In our solution, after usage of the device, once the water has been drained, the mattress can easily be detached, washed as a regular blanket, folded away, and re-installed whenever and wherever required. Moreover, the mattress is completely magnetic radiation proof which makes it perfectly safe for use in any CT/PET/MRI scan situation. 
+
+
+TRL - 
+Our idea is realized to be at TRL 4 from the given annexure. 
+An ‘ugly’ prototype has been implemented in which the heating mechanism has been demonstrated using electricity supply from mains to power a lightbulb in conjunction with our Arduino-based temperature regulating circuit. After the desired temperature was achieved on the lightbulb, the electric supply was cut off by the Arduino.
+
+
+Specific (Specify features) - 
+•	Desired temperature can be set using 4x4 dial pad.
+•	Flexible capillary tubes to enable foldability of mattress.
+•	Completely foldable and washable when detached.
+•	Magnetic radiation proof and hence safe for CT/PET/MRI scans.
+
+
+Measurable (Approach to convert idea to prototype) - 
+•	Drawing up the circuit diagram and its subsequent implementation.
+•	Connecting the solenoid heating coil to receive power from the mains.
+•	Installing the tubes to the heating coil to enable circulation of heated water.
+•	Installing the capillary tubes on the mattress.
+•	Deploying the complete circuit with the setup to test functionality.
+
+
+Attainable (How you're going to achieve/resources) - 
+•	Cotton mattress. (Heat retention)
+•	PVC Underground tubes (Retains heat)
+•	Pump
+•	Capillary tubes made of Natural rubber with Calcium Carbonate (Flexible and greater thermal conductivity) easily available at hardware stores.
+•	Circuit components – Arduino UNO, 5-volt relay, LM-35 Thermal sensor, 16x1 LCD screen, 4x4 keypad easily available at electronics and/or hobby stores.
+
+Mattress Specs : 
+
+- Dimension of the mattress : (2.0 m X 42 m)
+
+- Material of the mattress: Cotton ( maximum heat retention)
+
+- Weight of the mattress : 300g
+
+- Material of the capillary tube : Natural rubber with Calcium Carbonate ( flexible and greater thermal conductivity)
+
+- Estimated length of the capillary tube: ~16m 
+
+
+
+Skillset required of team - 
+•	Arduino programming knowledge
+•	Hardware and tools operational hand
+•	Working knowledge of electronic components and circuits.
+
+
+Timeline - 
+Considering the unavailability of components due to Covid-19, once the situation improves and component availability is normalized, the estimated timeline is as follows:
+•	The ‘ugly’ prototype took 24 hours to be conceived and completed.
+•	The estimated duration for completion of the finalized prototype is 30 days.
+•	The estimated duration for field testing and making it ready for commercial use, considering the possibility of fixes, is 60 days.
+
+
+
+Accessiblity - 
+
+- The user can easily assign an input temperature in the module using the dialpad.
+
+- Once the device has been used and the water has been drained, the mattress can easily be detached from the underground tubes system with the camlock coupling connector used.
+
+- Therefore, the mattress is made to be mobile. (The mattress is washable once detached.) 
+
+- Also, the flexible rubber capillary tube does not obstruct the foldability of the mattress.
+
+
+
+
+Usability - 
+Our Warm patient mattress is especially applicable for old patients during CT/MRI/PET scans, to minimize the patient discomfort and unintended patient motion during the procedures. This would enable Doctors to conduct the procedure smoothly and obtain accurate results. 
+
+
+Scalability - 
+Since the Warm patient mattress does not depend on any external equipment and/or infrastructure, it can be adapted for use in most hospitals/clinics with rudimentary infrastructure and reliable electricity supply. The device can be operated safely for well over 90 minutes, which is the standard duration of an MRI.
+
+
+Economic sustainability - 
+The Warm patient mattress is very economically viable because:
+•	Components are cheap and readily available.
+•	Installation/re-installation is easy having minimal costs.
+•	Once installed, the device can be re-used for a long duration without extra expenditure.
+•	If one component suffers damage, it can be easily replaced without replacing the entire device.
+
+
+Environmental sustainability - 
+The Warm patient mattress is environmentally viable because:
+•	No significantly large carbon footprint.
+•	Since it can be re-used, E-waste contribution is minimal.
+•	The materials used in the device are chosen mindfully to optimize both heat conductivity and heat retention where required such that the device is power efficient.
+
+
+
