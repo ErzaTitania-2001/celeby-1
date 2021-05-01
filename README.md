@@ -16,4 +16,4 @@ Pump
 Solenoid Coil
 Cylindrical Container
 
-In depth about the project is mentioned in the .txt file
+In depth about the project is mentioned in the .ppt file
