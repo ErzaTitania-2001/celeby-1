@@ -16,4 +16,9 @@ Components needed :
 - Solenoid Coil
 - Cylindrical Container
 
+Circuit Diagram : 
+
+![image](https://user-images.githubusercontent.com/59911272/117240082-af32f800-ae4d-11eb-811a-261893ac28aa.png)
+
+
 In depth about the project is mentioned in the .ppt file
