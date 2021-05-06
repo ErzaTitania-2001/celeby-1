@@ -5,15 +5,15 @@ We propose an Arduino-based artificially warm-able patient mattress which can be
 
 Components needed : 
 
-Arduino Uno
-Relay (5V) 
-Dialpad (4x4)
-Thermal Sensor (LM35) 
-PVC pipes (underground) 
-Capillary Tubes 
-Mattress = 
-Pump 
-Solenoid Coil
-Cylindrical Container
+- Arduino Uno
+- Relay (5V) 
+- Dialpad (4x4)
+- Thermal Sensor (LM35) 
+- PVC pipes (underground) 
+- Capillary Tubes 
+- Mattress 
+- Pump 
+- Solenoid Coil
+- Cylindrical Container
 
 In depth about the project is mentioned in the .ppt file
