@@ -1,6 +1,6 @@
 # celeby - IOT-based Smart Blanket
 
-We propose an Arduino-based artificially warm-able patient mattress which can be used to keep patients warm in presence of the magnetic scanning machines during CT/MRI/PET scan procedures, without hindering their operation. 
+We propose an Arduino-based artificially warm-able patient mattress which can be used to keep patients warm in presence of the magnetic scanning machines during CT/MRI/PET scan procedures, without hindering their operation.  dgsegagF
 
 
 Components needed : 
